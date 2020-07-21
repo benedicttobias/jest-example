@@ -32,3 +32,13 @@ describe('matcher', () => {
     });
 })
 
+test('array check example', () => {
+    let arr = [
+        'a',
+        'b',
+        'c',
+        'd'
+    ];
+
+    expect(arr).toContain('c');
+})
