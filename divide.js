@@ -1,6 +1,6 @@
 const divide = (a,b) => {
     if (b == 0){
-        throw new Error('you are using the wrong JDK');
+        throw new Error('divider cant be 0');
     }    
 
     return a / b;
